@@ -17,5 +17,3 @@ This document discusses strategies for optimizing the performance of the AudioCl
 ## Query Optimization
 - Use EXPLAIN ANALYZE to analyze query execution plans and identify performance bottlenecks.
 - Optimize queries by rewriting inefficient SQL, avoiding unnecessary joins, and using appropriate join types.
-
-... (add more optimization strategies as needed)
