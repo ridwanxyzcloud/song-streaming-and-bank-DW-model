@@ -4,7 +4,7 @@ This document describes the data model used in the AudioCloud data warehouse. Th
 
 ## Entity-Relationship Diagram
 
-Insert ER Diagram image here
+[]()
 
 ## Tables
 
