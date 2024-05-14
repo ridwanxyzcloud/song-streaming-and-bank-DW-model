@@ -13,7 +13,6 @@ This document describes the data model used in the AudioCloud data warehouse. Th
 - username (Text)
 - email (Text)
 - registration_date (Date)
-- ...
 
 ### songs
 - song_id (Primary Key, Integer)
@@ -21,13 +20,10 @@ This document describes the data model used in the AudioCloud data warehouse. Th
 - artist_id (Integer, Foreign Key)
 - genre (Text)
 - duration (Integer)
-- ...
+
 
 ### playlists
 - playlist_id (Primary Key, Integer)
 - user_id (Integer, Foreign Key)
 - name (Text)
 - creation_date (Date)
-- ...
-
-... (continue describing other tables)
