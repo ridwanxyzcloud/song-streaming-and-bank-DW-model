@@ -17,3 +17,13 @@ This document discusses strategies for optimizing the performance of the AudioCl
 ## Query Optimization
 - Use EXPLAIN ANALYZE to analyze query execution plans and identify performance bottlenecks.
 - Optimize queries by rewriting inefficient SQL, avoiding unnecessary joins, and using appropriate join types.
+
+
+## Important points to note
+
+- core operation of the business always end up being the fact of the business which makes up the fact table.
+- fact are measurable
+- OLTP are optimized for write because thye need to collect the data as fast as possible (DB)
+- (OLAP) are optimized for read and querying (DW)
+- DB are highly optimized table created majorly for read
+- Modeling is actually what differenciate your DB from you DW
